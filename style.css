@@ -1,0 +1,204 @@
+body{
+  background: linear-gradient(132deg, rgb(221, 221, 221) 0.00%, rgb(110, 136, 161) 100.00%);
+  margin:0;
+  padding:0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+.menu {           
+  display:flex;                         /* menu design for all pages */
+  justify-content:center;
+  height:80px;
+  margin-bottom:150px;
+  align-items:center;
+  background-color: #ECEFEC;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+.icon{                                /* icon on navbar */
+  float:left;                           
+  margin-left:20px;
+  font-size: 21px;
+  color:#1C6D6E
+}
+.menu a{
+  text-decoration: none;      
+  font-size: 20px;
+  margin-left: 260px;
+  color: #1C6D6E;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.menu a:hover {                    
+  color:#7A7C7A;                 /*menu styles end*/
+  cursor: pointer;
+  text-decoration: underline;
+}
+#intro , #footer, #contact, #surf-intro{         
+  text-align:center;
+}            
+.main-heading-1, .main-heading-2, .main-heading-3{                      
+  font-size:42px;
+  color:#1C6D6E;
+  letter-spacing: 2.4px;
+}
+.hero-img, .hero-img-2, .hero-img-3{
+  border-radius:30px;                
+  box-shadow: 2px 3px 9px;
+  margin-bottom:25px;
+}
+
+.intro-para , .surf-para{
+  display:inline-block;               
+  width:1000px;
+  text-align: justify;
+  font-size:1.3rem;
+  letter-spacing:1px;
+  line-height: 35px;
+  margin-bottom:150px;
+  color:white;                          
+}
+.form {
+  border:1px solid rgba(217, 224, 217, 0.9);
+  display:inline-block;
+  padding: 40px 50px 60px;            
+  margin-bottom:65px;
+  border-radius: 15px;
+  letter-spacing: 1px;
+  
+}
+.contact-heading{                    
+  font-size: 1.7rem;
+  color:1C6D6E;
+}
+input[type=text]{
+  padding:8px;
+  margin-right:5px;
+  border-radius:6px;
+}
+input[type="radio"]{
+  color:blue;
+}
+.preference  {
+  font-weight: bolder;
+  color:black;
+  font-size:18px;
+  
+}
+.submit-btn{
+  padding:8px 20px;
+  background-color: #828882;
+  border:none;
+}
+.submit-btn:hover{
+  border:1px solid white;
+}
+.click-submit{
+  text-decoration: none;                  
+  color:white;
+  font-size:1rem;
+}
+footer p{
+  color:white;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+#to-eat {
+  text-align:center;
+}
+#restaurants{
+display:block;
+justify-content: center;
+text-align: center;
+list-style-type: none;
+}
+#restaurants li{
+  list-style-type: none;
+}
+.top-3{
+  font-size:28px;
+  color: #1C6D6E;
+  margin-bottom:30px;
+
+}
+.list-para {
+  display:inline-block;
+  width:600px;
+  text-align: justify;
+  font-size:1.2rem;
+  color:white;
+  margin-bottom: 80px;
+  line-height: 25px;
+}
+.list-imgs{
+  border-radius:5px;
+  box-shadow: 2px 3px 9px;
+}
+
+
+.surf-list, .list-div ,
+.about-page, #surf-div, #contact{
+  display:block;
+}
+#surf-list{
+  margin-bottom:120px;
+}
+.surf-top-3 {
+  display:inline-block;
+}
+.surf-top-3 li {
+  padding-bottom:6px;
+}
+.the-best{
+  font-size:24px;
+  text-decoration-line: underline;
+  color:black;
+}
+.surf-top-3 li{
+ color:white;
+ font-size:25px;
+ margin-bottom:px;
+}
+.beaches:hover{
+  color:#7A7C7A;
+}
+#surf-report{
+  display:block;
+  margin-bottom: 80px;
+}
+.table{
+  display:inline-block;
+  text-align:left;
+}
+.table , th, td{
+  border: 1px solid black;
+  padding:7px;
+  border-collapse: collapse;
+}
+.surf-h2{
+  text-align: center;
+  font-size:28px;
+
+}
+.th-heading{
+color: whitesmoke;
+}
+.td-heading{
+ font-weight: bolder;
+}
+
+th{
+  background-color: #5DB55D;
+}
+.td-row{
+  font-weight: lighter;
+}
+tr:nth-child(even){
+  background-color:#f2f2f2;
+}
+tr:nth-child(odd){
+  background-color:#B3B3B5 ;
+}
+
+
+
